@@ -20,7 +20,7 @@ body {
     background-color: #81B29A;
 }
 
-figure {
+#topImage {
     margin: 0 auto;
 }
 
@@ -44,10 +44,44 @@ img {
     display: flex;
     flex-basis: 29%;
     justify-content: center;
-    border-right: solid;
     align-items: stretch;
+    border-right: solid;
 }
 
 #aboutMe{
     flex-basis: 70%;
+}
+
+#myWorkGrid {
+    flex-basis: 50%;
+    margin: 0px 10%;
+    display: grid;
+
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "work1 work1 work1"
+    "work1 work1 work1"
+    "work2 work3 work4"
+    ;
+    grid-gap: 20px;
+    grid-template-rows: 1fr min-content
+}
+.myWorkGridArea {
+    display: flex;
+
+}
+
+#work1 {
+    grid-area: work1;
+}
+#work2 {
+    grid-area: work2;
+}
+#work3 {
+    grid-area: work3;
+}
+#work4 {
+    grid-area: work4;
 }
