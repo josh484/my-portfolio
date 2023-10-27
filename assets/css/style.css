@@ -1,7 +1,7 @@
 body {
     background-color: #F4F1DE;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header {
@@ -29,4 +29,25 @@ img {
     height: 100px;
     position: relative;
     margin-top: -14px;
+}
+
+.contentContainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.leftSideTitle{
+    display: flex;
+    flex-basis: 29%;
+    justify-content: center;
+    border-right: solid;
+    align-items: stretch;
+}
+
+#aboutMe{
+    flex-basis: 70%;
 }
