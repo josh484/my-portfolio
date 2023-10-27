@@ -1,0 +1,19 @@
+body {
+    background-color: #F4F1DE;
+}
+
+.header {
+    width: 100%;
+    background-color: #E07A5F;
+    position: absolute;
+    margin: 0;
+}
+
+.navigation {
+    float: right;
+    margin: 15px;
+}
+
+.navigation:hover {
+    background-color: #81B29A;
+}
