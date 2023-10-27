@@ -92,3 +92,11 @@ img {
 #contactMe {
     flex-basis: 70%;
 }
+
+footer {
+    background-color: #E07A5F;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
