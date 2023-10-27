@@ -56,8 +56,6 @@ img {
     flex-basis: 50%;
     margin: 0px 10%;
     display: grid;
-
-
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -65,17 +63,22 @@ img {
     "work1 work1 work1"
     "work2 work3 work4"
     ;
-    grid-gap: 20px;
-    grid-template-rows: 1fr min-content
+    grid-gap: 10px;
+
 }
 .myWorkGridArea {
     display: flex;
 
 }
 
+
 #work1 {
     grid-area: work1;
 }
+#work1:hover {
+    cursor: pointer
+}
+
 #work2 {
     grid-area: work2;
 }
