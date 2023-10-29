@@ -24,15 +24,19 @@ body h1, h2, h3, a, p {
 }
 
 #titleBox {
-    max-width: 200px;
-    padding: 0px;
-    background: var(--maincolor4);
+    width:170px;
+    height:200px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url("../images/me.jpeg");
 }
 
-#titleBox h1{
-    text-align: left;
-    left: 0%;
+#titleBox img{
+    height: 100%;
+    margin-left: 10px;
 }
+
 
 .navigation {
     float: right;   
@@ -41,7 +45,7 @@ body h1, h2, h3, a, p {
 
 .navigation:hover {
     background-color: var(--maincolor4); 
-    cursor: pointer
+    cursor: pointer;
 }
 
 .navigation a {
