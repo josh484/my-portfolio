@@ -43,13 +43,13 @@ body h1, h2, h3, a, p {
 #topImage {
     margin: 0 auto;
     width: 100%;
+    height: 20vh;
+    background-position: 30% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/cubes-2492010_1920.jpg");
 }
 
-#topImage img{
-    width: 100%;
-    height: 20vh;
-    flex-grow: 1;
-}
 
 
 .contentContainer {
@@ -125,7 +125,7 @@ body h1, h2, h3, a, p {
 }
 
 .workTitle{
-    background-color:rgba(129, 178, 154, 0.4);
+    background-color:rgba(129, 178, 154, 0.7);
     padding: 15px;
     height: 25px;
     color: var(--maincolor3);
