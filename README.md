@@ -1,6 +1,6 @@
 # my-portfolio
-A portfolio of my coding work.
-https://github.com/josh484/my-portfolio
+A portfolio of my coding work:
+https://josh484.github.io/my-portfolio/
 ## Description 
 The website is a portfolio of the work I have done, it is a work in progress and will be updated with more of my work once I do them. The website contains all that I have learnt on week two of the bootcamp and highlights my css skills especially through the use of Flexbox and Grid spread throughout the page. The page is of course also using what I have learnt in week one and contains semantic tags. 
 
@@ -13,7 +13,7 @@ Once the file is downloaded you can open the index.html on your web browser you 
 ![Portfolio Landing](assets/images/FrontPage.png).
 For Those who are using a phone you may be met with this page instead:
 ![Mobile Landing](assets/images/MobilePage.png).
-
+<br />
 The buttons at the right serve as the guide for sections of the page (Top Right for Computer users). 
 Each Image link/will link to a project that I have done for now it is only the first one that will do so.
 
