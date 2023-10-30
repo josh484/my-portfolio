@@ -1,3 +1,5 @@
+
+/* Main Colours of the Website */
 :root {
     --maincolor1: #F4F1DE;
     --maincolor2: #E07A5F;
@@ -5,6 +7,7 @@
     --maincolor4: #81B29A;
 }
 
+/* Body Tag as a Flexbox for all content */
 body {
     background-color: var(--maincolor1);
     padding: 0;
@@ -14,10 +17,13 @@ body {
     min-height: 100vh;
 }
 
+/* Font colour and font family for all text */
 body h1, h2, h3, a, p {
     color: var(--maincolor3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Header and Navigation CSS */
 .header {
     background-color: var(--maincolor2);
 }
@@ -40,6 +46,7 @@ body h1, h2, h3, a, p {
     text-decoration: none;
 }
 
+/* CSS for the First Image */
 #topImage {
     margin: 0 auto;
     width: 100%;
@@ -51,7 +58,7 @@ body h1, h2, h3, a, p {
 }
 
 
-
+/* CSS For the main section content */
 .contentContainer {
     display:flex;
     flex-flow: row wrap;
@@ -65,6 +72,7 @@ body h1, h2, h3, a, p {
     color: var(--maincolor3);
 }
 
+/* All content on the left side of the page */
 .leftSideTitle{
     display: flex;
     flex-basis: 20%;
@@ -73,11 +81,12 @@ body h1, h2, h3, a, p {
     margin-right: auto;
 }
 
-
+ 
 #aboutMe{
     flex-basis: 70%;
 }
 
+/* Section for CSS Grid for the images of my work */
 #myWorkGrid {
     flex-basis: 70%;
     display: grid;
@@ -130,8 +139,10 @@ body h1, h2, h3, a, p {
     height: 25px;
     color: var(--maincolor3);
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* An Image of myself that has been rounded */
 #myImage {
     width:170px;
     height:200px;
@@ -141,6 +152,7 @@ body h1, h2, h3, a, p {
     background-image: url("../images/me.jpeg");
 }
 
+/* Contact Information CSS */
 #contactMe {
     flex-basis: 70%;
     display: flex; 
@@ -149,7 +161,7 @@ body h1, h2, h3, a, p {
     justify-content: space-evenly;
 }
 
-
+/* Footer CSS */
 
 footer {
     background-color: var(--maincolor2);
@@ -165,6 +177,9 @@ footer h2::after{
     content: "👨‍💻"
 }
 
+
+/* Media Query for tablet size and under screens for contact information
+to apply flex column wrap so that the information flows better */
 @media only screen and (max-width: 800px) {
     #contactMe {
         display: flex; 
@@ -173,7 +188,8 @@ footer h2::after{
         justify-content: center;
     }
 }
-
+/* Media query for mobile phones so that everything turns into a column view so
+ that users need only scroll through the page and all the information is in the center */
 @media only screen and (max-width: 600px) {
     header {
         display: flex;
