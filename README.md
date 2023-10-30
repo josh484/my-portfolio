@@ -10,9 +10,10 @@ In order to install the project simply click the green code button and download 
 Once downloaded simply right click on the file and unzip the folder.
 ## Usage 
 Once the file is downloaded you can open the index.html on your web browser you will be met with this page:
-![Portfolio Landing](assets/images/FrontPage.png)
+![Portfolio Landing](assets/images/FrontPage.png).
 For Those who are using a phone you may be met with this page instead:
-![Mobile Landing](assets/images/MobilePage.png)
+![Mobile Landing](assets/images/MobilePage.png).
+
 The buttons at the right serve as the guide for sections of the page (Top Right for Computer users). 
 Each Image link/will link to a project that I have done for now it is only the first one that will do so.
 
